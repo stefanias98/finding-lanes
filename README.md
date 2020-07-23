@@ -7,7 +7,7 @@ Next, the region of interest in the frame is retrieved such that the code doesn'
 Once the region is retrieved, the Hough transform is applied to the binary image such that any functions of straight lines of a specified length are found.
 At most, the lines representing the two hard shoulder lines and the median in between can be obtained, as pictured below
 
-![Sample from laneData/test4.mp4](laneData/sample.png)
+![Sample from laneData/test4.mp4](testData/sample.png)
 
 A moderately successful attempt is also made at making the algorithm robust to the interference of incoming traffic. The available lanes are then overlayed onto the original video data.
 
